@@ -20,7 +20,6 @@ rawdata = b''
 # reverse bytes in data in little endian order
 for n in data:
     rawdata += n.to_bytes(8, 'little')
-print(rawdata[15])
 
 # the first character of flag is r
 flag = 'r'
